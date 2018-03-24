@@ -3,8 +3,11 @@
 }
 
 body {
-	padding: 70px;
+	background-color: #fff;
 	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #333;
 }
 
 .custom-footer {
@@ -25,15 +28,22 @@ body {
 	margin-left: 2em;
 	text-transform: uppercase;
 	text-decoration: none;
-	color: black;
+	font-weight: 600;
+	color: #333;
 }
 
 .navigation a:hover {
 	color: #db3e39;
 }
 
+.navbar-default {
+	background-color: #fff;
+	border: none;
+}
+
 .navbar-default .navbar-nav > li > a {
-	font-size: 16px;
+	font-size: 12px;
+	font-weight: 300;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -41,12 +51,30 @@ body {
 }
 
 .navbar-default .navbar-nav li span {
-	margin-left: 10px;
+	padding-left: 10px;
 }
 
-.fa-shopping-cart {
-	color: #db3e39;
-	font-size: 23px;
+.navbar-default .navbar-nav .center {
+	position: relative;
+	bottom: 7px;
+}
+
+.hidden-sm .navbar-nav > li > a {
+	float: left;
+	display: inline-block;
+}
+
+/* .hidden-sm .nav li > a > img {
+	float: right;
+} */
+
+.navbar-toggle {
+	position: relative;
+	bottom: 55px;
+}
+
+.basket {
+	font-weight: 700;
 }
 
 .products {
@@ -197,6 +225,10 @@ body {
 	border-top: 1px solid #dbdbdb;
 }
 
+.custom-footer .col-md-3 {
+	padding: 20px;
+}
+
 .categories a {
 	color: #808080;
 	font-size: 13px;
@@ -293,7 +325,7 @@ body {
 	font-size: 1.5em;
 }
 
-.fa-envelope {
+.mail_outline {
 	font-size: 1.5em;
 }
 
@@ -301,11 +333,10 @@ body {
 	font-size: 1.5em;
 }
 
-/* .fa-facebook-f:hover {
-	border: 2px solid red;
-	border-radius: 100%;
-	padding: 5px;
-} */
+.fa-plus {
+	float: right;
+}
+
 
 .contact-wrap a:hover {
 	color: #db3e39;

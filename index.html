@@ -6,23 +6,41 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Chili z Celého Světa</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	
 	<header>
-		<nav class="navbar navbar-default navbar-fixed-top">
+		<nav class="navbar navbar-default">
 			<div class="container">
-				<ul class="nav navbar-nav">
-					<li><a href="tel:+420730829584"><i class="fas fa-phone-volume"></i> <span>+420730829584</span></a></li>
-					<li><a href="mailto:info@superchilli.cz"><i class="fas fa-envelope"></i> <span>info@superchilli.cz</span></a></li>
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#"><i class="fas fa-search"></i></a></li>
-					<li><a href="#"><i class="far fa-user"></i></a></li>
-					<li><a href="#"><i class="fas fa-shopping-cart"></i><span>prázdny košík</span></a></li>
-				</ul>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="tel:+420730829584"><i class="material-icons">call</i> <span class="center">+420730829584</span></a></li>
+						<li><a href="mailto:info@superchilli.cz"><i class="material-icons">mail_outline</i> <span class="center">info@superchilli.cz</span></a></li>
+					</ul> 	 
+				
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><i class="material-icons">search</i></a></li>
+						<li><a href="#"><i class="material-icons">person</i></a></li>
+						<li><a href="#"><img src="assets/icons/menu-basket1.png" alt="menu-basket" class="menu-basket"><span class="basket">prázdny košík</span></a></li>
+					</ul>
+				</div>
+
+				<div class="hidden-lg hidden-md hidden-sm">
+					<ul class="nav navbar-nav">
+						<li><a href="#"><i class="material-icons">search</i></a></li>
+						<li><a href="#"><i class="material-icons">person</i></a></li>
+						<li><a href="#"><img src="assets/icons/menu-basket1.png" alt="menu-basket" class="menu-basket"><span class="basket"></span></a></li>
+					</ul>					
+				</div>
+
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				</button>    		
 			</div>
 		</nav>
 	</header>
@@ -34,15 +52,17 @@
 					<img src="https://cdn.myshoptet.com/usr/www.superchilli.cz/user/logos/logo_sm.png" alt="SuperChilli.cz">
 				</a>
 			</h1>
-			<div class="navigation">
-				<a href="#">Chilli balíčky</a>
-				<a href="#">Sušené Chilli</a>
-				<a href="#">Tekuté Mash</a>
-				<a href="#">Magazín a recepty</a>
-			</div>
+			<div class="collapse navbar-collapse">
+				<div class="navigation">
+					<a href="#">Chilli balíčky</a>
+					<a href="#">Sušené Chilli</a>
+					<a href="#">Tekuté Mash</a>
+					<a href="#">Magazín a recepty</a>
+				</div>
+			</div>	
 
 			<div class="row flex">
-				<div class="col-md-3 product overlay">
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product overlay">
 					<div class="products">
 						<a href="#">
 							<div class="img img1"></div>
@@ -53,7 +73,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3 product overlay">
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product overlay">
 					<div class="products">
 						<a class="test" href="#">
 							<div class="img img2"></div>
@@ -64,7 +84,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3 product overlay">
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product overlay">
 					<div class="products">
 						<a href="#">
 							<div class="img img3"></div>
@@ -75,7 +95,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3 product overlay">
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product overlay">
 					<div class="products">
 						<a href="#">
 							<div class="img img4"></div>
@@ -86,7 +106,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3 product overlay">
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product overlay">
 					<div class="products">
 						<a href="#">
 							<div class="img img5"></div>
@@ -97,7 +117,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3 product overlay">
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product overlay">
 					<div class="products">
 						<a href="#">
 							<div class="img img6"></div>
@@ -108,7 +128,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3 product overlay">
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product overlay">
 					<div class="products">
 						<a href="#">
 							<div class="img img7"></div>
@@ -119,7 +139,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3 product overlay">
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product overlay">
 					<div class="products">
 						<a href="#">
 							<div class="img img8"></div>
@@ -146,7 +166,7 @@
 							<a href="#">chilli balíčky</a>
 						</div>
 						<div class="cat-1">
-							<a href="#">sušené chilli</a>
+							<a href="#">sušené chilli <i class="fas fa-plus"></i></a>
 						</div>
 						<div class="cat-2">
 							<a href="#">tekuté mash</a>
@@ -180,14 +200,16 @@
 				<div class="col-md-3">
 					<div class="contact-wrap">
 						<a href="tel:+420730829584"><i class="fas fa-phone-volume"></i> <span>+420730829584</span></a>
-						<a href="mailto:info@superchilli.cz"><i class="fas fa-envelope"></i> <span>info@superchilli.cz</span></a>
+						<a href="mailto:info@superchilli.cz"><i class="material-icons mail_outline">mail_outline</i> <span>info@superchilli.cz</span></a>
 						<a href="#"><i class="fab fa-facebook-f"></i></a>
 					</div>
 				</div>
 			</div>
-
+		</div>
+		<div class="container">
+			<span class="copyright">&copy; 2018 SuperChilli.cz. Všechna práva vyhrazena.</span>
+		</div>
 	</footer>
-
 
 
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -200,6 +222,7 @@
 	<script src="script.js"></script>
 </body>
 </html>
+
 
 
 	

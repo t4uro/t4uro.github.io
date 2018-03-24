@@ -13,3 +13,7 @@ $('.overlay').on('mouseleave', function() {
 	$('.btn-primary').remove();
 	$('.btn-info').remove();
 });
+
+// $('.navbar-toggle').on('click', function() {
+// 	$('body').fadeOut();
+// })
