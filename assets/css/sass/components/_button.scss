@@ -1,0 +1,16 @@
+.btn {
+	padding: 2rem;
+	background-color: $color-blue;
+	color: $color-white;
+	border: none;
+	border-radius: 0;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	
+	&--how-work {
+		font-size: 1.6rem;
+		top: 90%;
+		right: -30%;
+	}
+}

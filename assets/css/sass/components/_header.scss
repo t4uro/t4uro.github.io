@@ -1,0 +1,17 @@
+// Navigation
+.navbar-light .navbar-nav .nav-link {
+	color: $color-black;
+	font-family: 'Poppins';
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+	color: $color-blue;
+}
+
+.navigation li {
+	margin-left: 5rem;
+}
+
+.social li {
+	margin-left: 1rem;
+}

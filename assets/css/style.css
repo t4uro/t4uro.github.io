@@ -1,0 +1,102 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem; }
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url("../../../fonts/Poppins/Poppins-Regular.ttf"); }
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: url("../../../fonts/Raleway/Raleway-Regular.ttf"); }
+.fa-instagram {
+  font-size: 2rem; }
+
+.fa-facebook-f {
+  font-size: 2rem; }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem; }
+
+h1, h2, h3, h4, h5, h6 {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  font-weight: bold; }
+
+.u-margin-top-sm {
+  margin-top: 3rem; }
+
+.u-margin-top-md {
+  margin-top: 5rem; }
+
+.u-margin-top-lg {
+  margin-top: 8rem; }
+
+.u-center {
+  text-align: center; }
+
+.u-ml-medium {
+  margin-left: 5rem; }
+
+.btn {
+  padding: 2rem;
+  background-color: #2830FC;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  position: absolute;
+  top: 50%;
+  right: 0; }
+  .btn--how-work {
+    font-size: 1.6rem;
+    top: 90%;
+    right: -30%; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #282828;
+  font-family: 'Poppins'; }
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #2830FC; }
+
+.navigation li {
+  margin-left: 5rem; }
+
+.social li {
+  margin-left: 1rem; }
+
+.site-content h1 {
+  font-size: 9.8rem;
+  position: relative;
+  z-index: 10;
+  font-family: 'Raleway'; }
+
+.home-header h6 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: .4rem;
+  text-transform: uppercase;
+  font-family: 'Poppins'; }
+
+.home-header {
+  margin-top: 10rem;
+  margin-left: 12rem; }
+
+.home-header a {
+  text-decoration: none;
+  font-family: 'Poppins'; }
+
+.home-header h2 {
+  font-size: 7rem; }
+
+/*# sourceMappingURL=style.css.map */
